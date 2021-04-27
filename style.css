@@ -13,54 +13,47 @@ body, html {
 * {
     box-sizing: border-box;
     background-color: rgb(75, 75, 99);
+    width: 10.5rem;
+    text-align: center;
 }
 
 
 
 div {
     font-size: 3rem;
-    padding: 1fr;
     background-color:rgb(151, 5, 5);
-    border: 1fr 1fr;
-    margin: 1fr 1fr;
-    
+
 }
 
 span {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
+    font-style: italic;
     background-color: white;
-    padding: 0px 5.6rem;
+    font-family: monospace;    
 }
 
 footer {
     padding: 1fr;
     background-color:rgb(151, 5, 5);
-    border: 1fr 1fr;
-    margin: 1fr 1fr;
+
 }
 
 .hi {
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
     color: white;
-    padding: 0px 3.45rem;
-    margin-top: 0px;
     line-height: 80%;
 }
 
 .my {
     color: white;
-    padding: 0px 3.4rem;
-    margin-top: 0px;
-    line-height: 80%;
-    font-size: 2rem;
+    line-height: 100%;
+    font-size: 1rem;
 }
 
 .below {
     color: rgb(151, 5, 5);
-    padding: 0px 8.35rem;
-    margin-top: 0px;
+    padding: 0px 1rem;
     line-height: 100%;
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px ;
